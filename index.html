@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Starbucks Coffee Company</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="stylesheets/index.css" rel="stylesheet">
     <link href="stylesheets/root.css" rel="stylesheet">
     <link href="stylesheets/reset.css" rel="stylesheet">
@@ -26,596 +28,482 @@
 <body>
     <div class="border-bottom">
         <header>
-            <div class="header-big">
-                <div class="header-left">
-                    <div class="logo">
-                        <a href="index.html"><img src="images/Starbucks_Corporation_Logo_.png" alt="Logo"></a>
-                    </div>
-                    <div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/Starbucks_Corporation_Logo_.png" alt="Logo">
+                    <!-- Ensure logo size is controlled -->
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <h1>
+                                <a class="nav-link" href="https://www.starbucks.ca/menu">MENU</a>
+                            </h1>
+                        </li>
+                        <li class="nav-item">
+                            <h1>
+                                <a class="nav-link" href="https://www.starbucks.ca/rewards">REWARDS</a>
+                            </h1>
+                        </li>
+                        <li class="nav-item">
+                            <h1>
+                                <a class="nav-link" href="https://www.starbucks.ca/gift">GIFT CARDS</a>
+                            </h1>
+                        </li>
+                    </ul>
 
-                        <div class="nav-links">
-                            <h1><a href="https://www.starbucks.ca/menu">MENU</a></h1>
-                            <h1><a href="https://www.starbucks.ca/rewards">REWARDS</a></h1>
-                            <h1><a href="https://www.starbucks.ca/gift">GIFT CARDS</a></h1>
-                        </div>
-                    </div>
+
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mr-5">
+                            <h1>
+                                <a class="nav-link"
+                                    href="https://www.starbucks.ca/store-locator?map=57.751076,-101.645508,4z"><i
+                                        class="fa-solid fa-location-dot mr-2"></i>Find a
+                                    store</a>
+
+                            </h1>
+                        </li>
+                        <li class="nav-item ml-3 mb-2">
+                            <a class="nav-link btn btn-primary button-custom "
+                                href="https://www.starbucks.ca/account/signin?ReturnUrl=%2F">Sign in</a>
+                        </li>
+                        <li class="nav-item ml-3">
+                            <a class="nav-link btn btn-primary button-custom-2 "
+                                href="https://www.starbucks.ca/account/create">Join now</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="header-right">
-                    <div class="location">
-                        <h1><a href="https://www.starbucks.ca/store-locator?map=57.751076,-101.645508,4z"><i
-                                    class="fa-solid fa-location-dot"></i>Find a store</a></h1>
+            </nav>
+        </header>
+    </div>
+
+
+    <div class="border-bottom">
+        <main class="pt-4">
+
+            <!-- Section 1 -->
+            <div class="container-fluid custom-bg-1 custom-margin p-0 mb-4">
+                <div class="row align-items-center">
+                    <!-- Image side -->
+                    <div class="col-md-6 order-md-2 order-1">
+                        <img src="images/image1.webp" class="d-block w-100" alt="image">
                     </div>
-                    <div class="nav-actions">
-                        <a href="https://www.starbucks.ca/account/signin?ReturnUrl=%2F" class="button-custom">Sign
-                            in</a>
-                        <a href="https://www.starbucks.ca/account/create" class="button-custom-2">Join now</a>
+                    <!-- Text side -->
+                    <div class="col-md-6 text-center d-flex justify-content-center order-md-1 order-2">
+                        <div class="col-sm-9 pt-3 pb-3">
+                            <h2 class="mb-4">Chance to win $10,000*</h2>
+                            <p class="mb-4">Eligible TD Cardholders, make one or more Qualifying Purchases at
+                                Participating
+                                Starbucks Stores using your linked Starbucks® Rewards account and TD Card by March 3,
+                                and
+                                you could win prizes.*</p>
+                            <a class="nav-link btn btn-primary button-custom "
+                                href="https://www.fillyourcupcontest.com/" target="_blank">Learn more</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="header-small">
-                <div class="logo">
-                    <a href="index.html"><img src="images/Starbucks_Corporation_Logo_.png" alt="Logo"></a>
-                </div>
 
-                <div class="header-container-mobile">
-
-
-                    <div class="dropdown-container">
-                        <input type="checkbox" id="header-dropdowm">
-                        <label for="header-dropdowm">
-                            <div class="title">
-                                <div>
-                                    <i class="fa-solid fa-bars"></i>
-                                    <i class="fa-solid fa-x"></i>
-                                </div>
-                            </div>
-
-                        </label>
-                        <div class="dropdown-content" id="header-dropdowm">
-                            <div class="links-mobile">
-                                <h1><a href="https://www.starbucks.ca/menu">MENU</a></h1>
-                                <h1><a href="https://www.starbucks.ca/rewards">REWARDS</a></h1>
-                                <h1><a href="https://www.starbucks.ca/gift">GIFT CARDS</a></h1>
-                                <div class="location">
-                                    <h1><a href="https://www.starbucks.ca/store-locator?map=57.751076,-101.645508,4z"><i
-                                                class="fa-solid fa-location-dot"></i>Find a store</a></h1>
-                                </div>
-                                <a href="https://www.starbucks.ca/account/signin?ReturnUrl=%2F"
-                                    class="button-custom">Sign
-                                    in</a>
-                                <a href="https://www.starbucks.ca/account/create" class="button-custom-2">Join now</a>
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div>
-        </header>
-
-    </div>
-
-    <section>
-        <div class="border-bottom">
-            <main>
-
-                <!-- Section 1 -->
-                <div class="custom-section custom-bg-1">
-                    <div class="image-side">
-                        <img src="images/image1.webp" alt="image">
-                    </div>
-                    <div class="text-side">
-                        <div class="text-content">
-                            <h2>Chance to win $10,000*</h2>
-                            <p>Eligible TD Cardholders, make one or more Qualifying Purchases at Participating Starbucks
-                                Stores using your linked Starbucks® Rewards account and TD Card by March 3, and you
-                                could
-                                win prizes.*</p>
-                            <a href="https://www.fillyourcupcontest.com/" target="_blank" class="button-custom">Learn
-                                more</a>
-                        </div>
-                    </div>
-                </div>
-
-
-                <!-- Section 2 -->
-                <div class="custom-section custom-layout-2 custom-bg-2">
+            <!-- Section 2 -->
+            <div class="container-fluid custom-bg-2 custom-margin p-0 mb-4">
+                <div class="row align-items-center">
                     <!-- Image side -->
-                    <div class="image-side">
-                        <img src="images/image2.jpg" alt="image">
+                    <div class="col-md-6 order-md-1 order-1">
+                        <img src="images/image2.jpg" class="d-block w-100" alt="image">
                     </div>
                     <!-- Text side -->
-                    <div class="text-side">
-                        <div class="text-content">
-                            <h5>Pass the pistachios</h5>
-                            <p>Your favourite winter duo is back: the Pistachio Latte and Pistachio
+                    <div class="col-md-6 text-center d-flex justify-content-center order-md-2 order-2">
+                        <div class="col-sm-9 pt-3 pb-3">
+                            <h5 class="mb-4">Pass the pistachios</h5>
+                            <p class=" p2 mb-4">Your favourite winter duo is back: the Pistachio Latte and Pistachio
                                 Cream Cold Brew.
                             </p>
-                            <a href="https://www.starbucks.ca/menu/featured/" class="button-custom">Order now</a>
+                            <a class="nav-link btn btn-primary button-custom "
+                                href="https://www.starbucks.ca/menu/featured/">Order now</a>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <!-- Section 3 -->
-                <div class="custom-section custom-bg-3">
-
+            <!-- Section 3 -->
+            <div class="container-fluid custom-bg-3 custom-margin p-0 mb-4">
+                <div class="row align-items-center">
                     <!-- Image side -->
-                    <div class="image-side">
-                        <img src="images/image3.jpg" alt="image">
+                    <div class="col-md-6 order-md-2 order-1">
+                        <img src="images/image3.jpg" class="d-block w-100" alt="image">
                     </div>
                     <!-- Text side -->
-                    <div class="text-side">
-                        <div class="text-content">
-                            <h5>Subtle, sweet and shaken</h5>
-                            <p>Our new Oleato Golden Foam™ Iced Shaken Espresso with Toffeenut is
+                    <div class="col-md-6 text-center d-flex justify-content-center order-md-1 order-2">
+                        <div class="col-sm-9 pt-3 pb-3">
+                            <h5 class="mb-4">Subtle, sweet and shaken</h5>
+                            <p class=" p2 mb-4">Our new Oleato Golden Foam™ Iced Shaken Espresso with Toffeenut is
                                 velvety smooth and deliciously lush.</p>
-                            <a href="https://www.starbucks.ca/menu/product/2123803/iced" class="button-custom">Order
-                                now</a>
+                            <a class="nav-link btn btn-primary button-custom "
+                                href="https://www.starbucks.ca/menu/product/2123803/iced">Order now</a>
                         </div>
                     </div>
-
                 </div>
+            </div>
 
-                <!-- Section 4 -->
-                <div class="custom-section custom-layout-2 custom-bg-4">
-
+            <!-- Section 4 -->
+            <div class="container-fluid custom-bg-4 custom-margin p-0 mb-4">
+                <div class="row align-items-center">
                     <!-- Image side -->
-                    <div class="image-side">
-                        <img src="images/image4.jpg" alt="image">
+                    <div class="col-md-6 order-md-1 order-1">
+                        <img src="images/image4.jpg" class="d-block w-100" alt="image">
                     </div>
                     <!-- Text side -->
-                    <div class="text-side">
-                        <div class="text-content">
-                            <h5>Sweet love</h5>
-                            <p>Always a treat, our rich and buttery Heart Sugar Cookie is adorned with
+                    <div class="col-md-6 text-center d-flex justify-content-center order-md-2 order-2">
+                        <div class="col-sm-9 pt-3 pb-3">
+                            <h5 class="mb-4">Sweet love</h5>
+                            <p class=" p2 mb-4">Always a treat, our rich and buttery Heart Sugar Cookie is adorned with
                                 colourful sprinkles.
                             </p>
-                            <a href="https://www.starbucks.ca/menu/product/2122140/single" class="button-custom">Order
-                                now</a>
+                            <a class="nav-link btn btn-primary button-custom "
+                                href="https://www.starbucks.ca/menu/product/2122140/single">Order now</a>
                         </div>
                     </div>
                 </div>
+            </div>
 
 
-                <!-- Section 5 -->
-                <div class="custom-section custom-bg-5">
-
+            <!-- Section 5 -->
+            <div class="container-fluid custom-bg-5 custom-margin p-0 mb-4">
+                <div class="row align-items-center">
                     <!-- Image side -->
-                    <div class="image-side">
-                        <img src="images/image5.webp" alt="image">
+                    <div class="col-md-6 order-md-2 order-1">
+                        <img src="images/image5.webp" class="d-block w-100" alt="image">
                     </div>
                     <!-- Text side -->
-                    <div class="text-side">
-                        <div class="text-content">
-                            <h5>Here’s to coffee</h5>
-                            <p class="p2">A returning-favourite, Starbucks Tribute Blend® celebrates four beloved
+                    <div class="col-md-6 text-center d-flex justify-content-center order-md-1 order-2">
+                        <div class="col-sm-9 pt-3 pb-3">
+                            <h5 class="mb-4">Here’s to coffee</h5>
+                            <p class="mb-4 p2">A returning-favourite, Starbucks Tribute Blend® celebrates four beloved
                                 coffee-growing regions.</p>
-                            <a href="https://www.starbucks.ca/menu/product/792/whole-bean" class="button-custom-3">Order
-                                now</a>
+                            <a class="nav-link btn btn-primary button-custom-3 "
+                                href="https://www.starbucks.ca/menu/product/792/whole-bean">Order now</a>
                         </div>
                     </div>
-
                 </div>
+            </div>
 
-                <!-- Section 6 -->
-                <div class="custom-section custom-layout-2 custom-bg-6">
-
+            <!-- Section 6 -->
+            <div class="container-fluid custom-bg-6 custom-margin p-0 mb-4">
+                <div class="row align-items-center">
                     <!-- Image side -->
-                    <div class="image-side">
-                        <img src="images/image6.webp" alt="image">
+                    <div class="col-md-6 order-md-1 order-1">
+                        <img src="images/image6.webp" class="d-block w-100" alt="image">
                     </div>
                     <!-- Text side -->
-                    <div class="text-side">
-                        <div class="text-content">
-                            <h2>Learn what's new at Starbucks</h2>
-                            <p class="p2">A returning-favourite, Starbucks Tribute Blend® celebrates four beloved
+                    <div class="col-md-6 text-center d-flex justify-content-center order-md-2 order-2">
+                        <div class="col-sm-9 pt-3 pb-3">
+                            <h2 class="mb-4">Learn what's new at Starbucks</h2>
+                            <p class="mb-4">A returning-favourite, Starbucks Tribute Blend® celebrates four beloved
                                 coffee-growing regions.
                             </p>
-                            <a href="https://stories.starbucks.ca/?utm_source=ownedchannel&utm_medium=webEN&utm_campaign=alwayson"
-                                class="button-custom-3">Learn
+                            <a class="nav-link btn btn-primary button-custom-3 "
+                                href="https://stories.starbucks.ca/?utm_source=ownedchannel&utm_medium=webEN&utm_campaign=alwayson">Learn
                                 more</a>
                         </div>
                     </div>
-
                 </div>
-
-                <!-- Legal Disclaimer Section -->
-                <div class="legal-disclaimer">
-
-                    <h4 class="mb-4"> <!-- Smaller font size for compactness -->
-                        *NO PURCHASE NECESSARY. Legal residents of Canada who are the age of majority in their
-                        province/territory of residence at the time of entry, who have an Eligible TD Card
-                        Account
-                        open
-                        and in good standing as of February 5, 2024. Must have an Eligible TD Card Account
-                        linked
-                        with a
-                        Starbucks Rewards loyalty account to enter. Participating stores only. Starbucks
-                        Partners
-                        (employees) are not eligible to win prizes. Starts 2/5/24 at 12:00 a.m. PT and ends
-                        3/3/24
-                        at
-                        11:59 p.m. PT. For Official Rules, including how to enter by mail, how to opt-out of the
-                        contest, prizes and odds, visit <a href="http://www.fillyourcupcontest.com"
-                            target="_blank">www.fillyourcupcontest.com</a>. Mathematical skill-testing question
-                        must
-                        be
-                        correctly answered to win. Total of 511 prizes (valued at CAD $25,000) consisting of 1
-                        Grand
-                        Prize of CDN $10,000, 10 second prizes of CDN $500 each, and 500 third prizes of a
-                        CDN$20
-                        Starbucks Gift Card available to be won. Max 15 plays. Excludes purchases of Starbucks
-                        Cards
-                        and
-                        Starbucks Card reloads.
-                    </h4>
-
-
-                </div>
-
-            </main>
-        </div>
-    </section>
-
-    <section>
-        <div class="border-bottom">
-            <div class="QNA">
-                <div class="QNA-container">
-
-                    <div class="click-content">
-                        <div class="title">
-                            <h6>About Starbucks</h6>
-                        </div>
-                        <div class="links">
-                            <a href="https://www.starbucks.ca/about-us/" class="custom-text-color">Our
-                                Company</a>
-                            <a href="https://www.starbucks.ca/coffee/" class="custom-text-color">Our
-                                Coffee</a>
-                            <a href="https://stories.starbucks.ca/en-ca/" class="custom-text-color">Stories
-                                and News</a>
-                            <a href="https://investor.starbucks.com/ir-home/default.aspx"
-                                class="custom-text-color">Investor
-                                Relations</a>
-                            <a href="https://customerservice.starbucks.ca/sbux" class="custom-text-color">Customer
-                                Service</a>
-                        </div>
-
-                    </div>
-
-                    <div class="click-content">
-                        <div class="title">
-                            <h6>Careers</h6>
-                        </div>
-                        <div class="links">
-                            <a href="https://www.starbucks.ca/careers/working-at-starbucks/culture-and-values/"
-                                class="custom-text-color">Culture and Values</a>
-                            <a href="https://www.starbucks.ca/responsibility/people/"
-                                class="custom-text-color">Diversity
-                                and Inclusion</a>
-                            <a href="https://www.starbucks.ca/careers/" class="custom-text-color">Work
-                                at
-                                Starbucks</a>
-                            <a href="https://www.starbucks.ca/careers/find-a-job/corporate/" class="custom-text-color">
-                                Corporate Careers</a>
-                            <a href="https://www.starbucks.ca/careers/find-a-job/retail/"
-                                class="custom-text-color">Retail
-                                Careers</a>
-                        </div>
-                    </div>
-
-                    <div class="click-content">
-                        <div class="title">
-                            <h6>Social Impact</h6>
-                        </div>
-                        <div class="links">
-                            <a href="https://www.starbucks.ca/responsibility/reporting-hub/"
-                                class="custom-text-color">Overview</a>
-                            <a href="https://www.starbucks.ca/responsibility/people/"
-                                class="custom-text-color">People</a>
-                            <a href="https://www.starbucks.ca/responsibility/planet/"
-                                class="custom-text-color">Planet</a>
-                            <a href="https://www.starbucks.ca/responsibility/reporting-hub/"
-                                class="custom-text-color">Environmental and Social Impact Reporting</a>
-                        </div>
-
-                    </div>
-
-
-                    <div class="click-content">
-                        <div class="title">
-                            <h6>For Business Partners</h6>
-                        </div>
-                        <div class="links">
-                            <a href="https://www.starbuckscardb2b.com/s/" class="custom-text-color">Corporate Gift Card
-                                Sales</a>
-                            <a href="https://weproudlyservestarbucks.com/ca/ca-en" class="custom-text-color">Branded
-                                Solutions</a>
-                        </div>
-
-                    </div>
-
-                    <div class="click-content">
-                        <div class="title">
-                            <h6>Order and Pickup</h6>
-                        </div>
-                        <div class="links">
-                            <a href="https://www.starbucks.ca/rewards/mobile-apps/" class="custom-text-color">Order on
-                                the
-                                App</a>
-                            <a href="https://www.starbucks.ca/menu" class="custom-text-color">Order on
-                                the
-                                Web</a>
-                            <a href="https://www.starbucks.ca/ways-to-order/delivery/"
-                                class="custom-text-color">Delivery</a>
-                            <a href="https://www.starbucks.ca/ways-to-order/" class="custom-text-color">Order and Pickup
-                                options</a>
-                        </div>
-
-                    </div>
-
-
-                </div>
-
-                <div class="QNA-container-mobile">
-
-
-                    <div class="dropdown-container-faq">
-                        <input type="checkbox" id="toggle-1">
-                        <label for="toggle-1">
-                            <div class="title">
-
-                                <h6>About Starbucks</h6>
-
-
-                                <i class="fa-solid fa-arrow-down"></i>
-                                <i class="fa-solid fa-arrow-up"></i>
-
-                            </div>
-                        </label>
-                        <div class="dropdown-content-faq" id="content-1">
-                            <div class="links-mobile">
-                                <a href="https://www.starbucks.ca/about-us/" class="custom-text-color">Our
-                                    Company</a>
-                                <a href="https://www.starbucks.ca/coffee/" class="custom-text-color">Our
-                                    Coffee</a>
-                                <a href="https://stories.starbucks.ca/en-ca/" class="custom-text-color">Stories
-                                    and News</a>
-                                <a href="https://investor.starbucks.com/ir-home/default.aspx"
-                                    class="custom-text-color">Investor
-                                    Relations</a>
-                                <a href="https://customerservice.starbucks.ca/sbux" class="custom-text-color">Customer
-                                    Service</a>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="dropdown-container-faq">
-                        <input type="checkbox" id="toggle-2">
-                        <label for="toggle-2">
-                            <div class="title">
-
-                                <h6>Careers</h6>
-
-
-                                <i class="fa-solid fa-arrow-down"></i>
-                                <i class="fa-solid fa-arrow-up"></i>
-
-                            </div>
-                        </label>
-                        <div class="dropdown-content-faq" id="content-2">
-                            <div class="links-mobile">
-                                <a href="https://www.starbucks.ca/careers/working-at-starbucks/culture-and-values/"
-                                    class="custom-text-color">Culture and Values</a>
-                                <a href="https://www.starbucks.ca/responsibility/people/"
-                                    class="custom-text-color">Diversity
-                                    and Inclusion</a>
-                                <a href="https://www.starbucks.ca/careers/" class="custom-text-color">Work
-                                    at
-                                    Starbucks</a>
-                                <a href="https://www.starbucks.ca/careers/find-a-job/corporate/"
-                                    class="custom-text-color">
-                                    Corporate Careers</a>
-                                <a href="https://www.starbucks.ca/careers/find-a-job/retail/"
-                                    class="custom-text-color">Retail
-                                    Careers</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="dropdown-container-faq">
-                        <input type="checkbox" id="toggle-3">
-                        <label for="toggle-3">
-                            <div class="title">
-
-
-                                <h6>Social Impact</h6>
-
-
-                                <i class="fa-solid fa-arrow-down"></i>
-                                <i class="fa-solid fa-arrow-up"></i>
-
-                            </div>
-                        </label>
-                        <div class="dropdown-content-faq" id="content-3">
-                            <div class="links-mobile">
-                                <a href="https://www.starbucks.ca/responsibility/reporting-hub/"
-                                    class="custom-text-color">Overview</a>
-                                <a href="https://www.starbucks.ca/responsibility/people/"
-                                    class="custom-text-color">People</a>
-                                <a href="https://www.starbucks.ca/responsibility/planet/"
-                                    class="custom-text-color">Planet</a>
-                                <a href="https://www.starbucks.ca/responsibility/reporting-hub/"
-                                    class="custom-text-color">Environmental and Social Impact Reporting</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="dropdown-container-faq">
-                        <input type="checkbox" id="toggle-4">
-                        <label for="toggle-4">
-                            <div class="title">
-
-                                <h6>For Business Partners</h6>
-
-
-                                <i class="fa-solid fa-arrow-down"></i>
-                                <i class="fa-solid fa-arrow-up"></i>
-
-                            </div>
-                        </label>
-                        <div class="dropdown-content-faq" id="content-4">
-                            <div class="links-mobile">
-                                <a href="https://www.starbuckscardb2b.com/s/" class="custom-text-color">Corporate Gift
-                                    Card
-                                    Sales</a>
-                                <a href="https://weproudlyservestarbucks.com/ca/ca-en" class="custom-text-color">Branded
-                                    Solutions</a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="dropdown-container-faq">
-                        <input type="checkbox" id="toggle-5">
-                        <label for="toggle-5">
-                            <div class="title">
-
-                                <h6>Order and Pickup</h6>
-
-
-                                <i class="fa-solid fa-arrow-down"></i>
-                                <i class="fa-solid fa-arrow-up"></i>
-
-                            </div>
-                        </label>
-                        <div class="dropdown-content-faq" id="content-5">
-                            <div class="links-mobile">
-                                <a href="https://www.starbucks.ca/rewards/mobile-apps/" class="custom-text-color">Order
-                                    on
-                                    the
-                                    App</a>
-                                <a href="https://www.starbucks.ca/menu" class="custom-text-color">Order on
-                                    the
-                                    Web</a>
-                                <a href="https://www.starbucks.ca/ways-to-order/delivery/"
-                                    class="custom-text-color">Delivery</a>
-                                <a href="https://www.starbucks.ca/ways-to-order/" class="custom-text-color">Order and
-                                    Pickup
-                                    options</a>
-                            </div>
-
-                        </div>
-                    </div>
-
-
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-
-
-    <section>
-        <div class="end-links">
-            <!-- Social Links -->
-            <div class="social-media">
-
-                <a href="https://www.facebook.com/starbuckscanada" class="custom-text-color"><i
-                        class="fa-brands fa-facebook fa-2x"></i></a>
-                <a href="https://www.instagram.com/starbuckscanada" class="custom-text-color"><i
-                        class="fa-brands fa-square-instagram fa-2x"></i></a>
-                <a href="https://twitter.com/starbuckscanada" class="custom-text-color"><i
-                        class="fa-brands fa-square-twitter fa-2x"></i></a>
-
             </div>
 
-            <!-- Links for medium and larger screens -->
-            <div class="text-links-big">
-                <div>
-                    <a href="https://www.starbucks.ca/terms/privacy-statement/" class="custom-link-color">Privacy
-                        Notice</a>
+            <!-- Legal Disclaimer Section -->
+            <div class="container-fluid custom-margin px-4">
+                <!-- Adjust the background color as needed -->
+                <div class="row justify-content-center">
+                    <div class="col-md-6 text-center"> <!-- Adjust padding as needed for spacing -->
+                        <h4 class="mb-4"> <!-- Smaller font size for compactness -->
+                            *NO PURCHASE NECESSARY. Legal residents of Canada who are the age of majority in their
+                            province/territory of residence at the time of entry, who have an Eligible TD Card Account
+                            open
+                            and in good standing as of February 5, 2024. Must have an Eligible TD Card Account linked
+                            with a
+                            Starbucks Rewards loyalty account to enter. Participating stores only. Starbucks Partners
+                            (employees) are not eligible to win prizes. Starts 2/5/24 at 12:00 a.m. PT and ends 3/3/24
+                            at
+                            11:59 p.m. PT. For Official Rules, including how to enter by mail, how to opt-out of the
+                            contest, prizes and odds, visit <a href="http://www.fillyourcupcontest.com"
+                                target="_blank">www.fillyourcupcontest.com</a>. Mathematical skill-testing question must
+                            be
+                            correctly answered to win. Total of 511 prizes (valued at CAD $25,000) consisting of 1 Grand
+                            Prize of CDN $10,000, 10 second prizes of CDN $500 each, and 500 third prizes of a CDN$20
+                            Starbucks Gift Card available to be won. Max 15 plays. Excludes purchases of Starbucks Cards
+                            and
+                            Starbucks Card reloads.
+                        </h4>
+                    </div>
                 </div>
-                <div>
-                    |
-                </div>
-                <div>
-                    <a href="https://www.starbucks.ca/terms/starbucks-terms-of-use/" class="custom-link-color">Term of
-                        Use</a>
-                </div>
-                <div>
-                    |
-                </div>
-                <div>
-                    <a href="https://www.starbucks.ca/personal-information" class="custom-link-color">Do not Share My
-                        Personal Information</a>
-                </div>
-                <div>
-                    |
-                </div>
-                <div>
-                    <a href="https://id.starbucks.com/SecureAuth83/SecureAuth.aspx?SAMLRequest=fZJLT8MwEIT%2fSuS78yJNK6utVKgQkXhEtHDgghxnAxaJHbx2gX%2bPk%2fIoSHD0amb289hz5F3bs5Wzj%2boanh2gDYr1gtwnaSaaPJ3QvOIVzZomo7zJp3SWJTyf1gDVFEhwCwalVguShjEJCkQHhULLlfWjOM1onNI038YJm8xYMgnz%2bOiOBGu%2fRSpuR%2bejtT2yKJJ16I2mcuIJQ6G7CEE4A9yTzY4ODiHH%2fpUEp9oIGLEXpOEtwrC%2b5IhyB1%2bT0mirhW6PpaqlelgQZxTTHCUyxTtAZgXbrC7Omcdn1V6E7Gy7LWl5tdmSYIUIZuA80QpdB2YDZicF3Fyff5OjRbqTSDsu1a876EZiRILXrlXIxqr%2fZ%2bg%2fgMlyPqjZ2Kg58P9v55%2b4ZDnIbovNhWdiHnAeHeTtw3t26QOKdalbKd6GQjtu%2f85PwmScyJo2o5Q5hT0I2UiofVNtq19O%2fBNZX781zrcfLfdbf36v5Ts%3d&RelayState=urn%253AVISC3%253Asts"
-                        class="custom-link-color">Partners</a>
-                </div>
-                <div>
-                    |
-                </div>
-                <div>
-                    <a href="https://www.starbucks.ca/about-us/accessibility/"
-                        class="custom-link-color">Accessibility</a>
-                </div>
-
-
             </div>
 
-            <!-- Links for small screens -->
-            <div class="text-links-small">
-                <div>
-                    <a href="https://www.starbucks.ca/terms/privacy-statement/" class="custom-link-color">Privacy
-                        Notice</a>
-                </div>
+        </main>
 
-                <div>
-                    <a href="https://www.starbucks.ca/terms/starbucks-terms-of-use/" class="custom-link-color">Term of
-                        Use</a>
-                </div>
-
-                <div>
-                    <a href="https://www.starbucks.ca/personal-information" class="custom-link-color">Do not Share My
-                        Personal Information</a>
-                </div>
-
-                <div>
-                    <a href="https://id.starbucks.com/SecureAuth83/SecureAuth.aspx?SAMLRequest=fZJLT8MwEIT%2fSuS78yJNK6utVKgQkXhEtHDgghxnAxaJHbx2gX%2bPk%2fIoSHD0amb289hz5F3bs5Wzj%2boanh2gDYr1gtwnaSaaPJ3QvOIVzZomo7zJp3SWJTyf1gDVFEhwCwalVguShjEJCkQHhULLlfWjOM1onNI038YJm8xYMgnz%2bOiOBGu%2fRSpuR%2bejtT2yKJJ16I2mcuIJQ6G7CEE4A9yTzY4ODiHH%2fpUEp9oIGLEXpOEtwrC%2b5IhyB1%2bT0mirhW6PpaqlelgQZxTTHCUyxTtAZgXbrC7Omcdn1V6E7Gy7LWl5tdmSYIUIZuA80QpdB2YDZicF3Fyff5OjRbqTSDsu1a876EZiRILXrlXIxqr%2fZ%2bg%2fgMlyPqjZ2Kg58P9v55%2b4ZDnIbovNhWdiHnAeHeTtw3t26QOKdalbKd6GQjtu%2f85PwmScyJo2o5Q5hT0I2UiofVNtq19O%2fBNZX781zrcfLfdbf36v5Ts%3d&RelayState=urn%253AVISC3%253Asts"
-                        class="custom-link-color">Partners</a>
-                </div>
-
-                <div>
-                    <a href="https://www.starbucks.ca/about-us/accessibility/"
-                        class="custom-link-color">Accessibility</a>
-                </div>
-
-            </div>
-
-            <div class="language">
-                <a href="#!" class="custom-link-color-2">Passer au site français</a>
-            </div>
-        </div>
-    </section>
-</body>
-
-</html>
-
-
-
-
-
-<footer>
-    <div class="footer-custom">
-        © 2024 Starbucks Coffee Company. All rights reserved.
     </div>
-</footer>
+    <div class="border-bottom">
+        <div class="container-fluid pt-4 px-5">
+            <div class="row">
+                <!-- Section: About Starbucks -->
+                <div class="col-12 col-lg-2 mb-4 mb-lg-0 px-0">
+                    <!-- Mobile Toggle -->
+                    <a href="#aboutStarbucksMobile" class="custom-text-color d-lg-none" data-bs-toggle="collapse">
+                        <h6>About Starbucks</h6>
+                        <span class="arrow fa fa-chevron-down"></span>
+                    </a>
+                    <!-- Mobile Content -->
+                    <div class="collapse d-lg-none pl-4" id="aboutStarbucksMobile">
+                        <ul class="list-unstyled">
+                            <li class="mb-3 mt-3"><a href="https://www.starbucks.ca/about-us/"
+                                    class="custom-text-color">Our Company</a></li>
+                            <li class="mb-3"><a href="https://www.starbucks.ca/coffee/" class="custom-text-color">Our
+                                    Coffee</a></li>
+                            <li class="mb-3"><a href="https://stories.starbucks.ca/en-ca/"
+                                    class="custom-text-color">Stories and News</a></li>
+                            <li class="mb-3"><a href="https://investor.starbucks.com/ir-home/default.aspx"
+                                    class="custom-text-color">Investor Relations</a></li>
+                            <li class="mb-3"><a href="https://customerservice.starbucks.ca/sbux"
+                                    class="custom-text-color">Customer Service</a></li>
+                        </ul>
+                    </div>
+                    <!-- Desktop Title & Content -->
+                    <h6 class="custom-text-color d-none d-lg-block p-3">About Starbucks</h6>
+                    <ul class="list-unstyled d-none d-lg-block p-3">
+                        <li class="mb-3 mt-3"><a href="https://www.starbucks.ca/about-us/" class="custom-text-color">Our
+                                Company</a></li>
+                        <li class="mb-3"><a href="https://www.starbucks.ca/coffee/" class="custom-text-color">Our
+                                Coffee</a></li>
+                        <li class="mb-3"><a href="https://stories.starbucks.ca/en-ca/" class="custom-text-color">Stories
+                                and News</a></li>
+                        <li class="mb-3"><a href="https://investor.starbucks.com/ir-home/default.aspx"
+                                class="custom-text-color">Investor Relations</a></li>
+                        <li class="mb-3"><a href="https://customerservice.starbucks.ca/sbux"
+                                class="custom-text-color">Customer Service</a></li>
+                    </ul>
+                </div>
 
+                <!-- Section: Careers -->
+                <div class="col-12 col-lg-2 mb-4 mb-lg-0 px-0">
+                    <!-- Mobile Toggle -->
+                    <a href="#Careers" class="custom-text-color d-lg-none" data-bs-toggle="collapse">
+                        <h6>Careers</h6>
+                        <span class="arrow fa fa-chevron-down"></span>
+                    </a>
+                    <!-- Mobile Content -->
+                    <div class="collapse d-lg-none pl-4" id="Careers">
+                        <ul class="list-unstyled">
+                            <li class="mb-3 mt-3"><a
+                                    href="https://www.starbucks.ca/careers/working-at-starbucks/culture-and-values/"
+                                    class="custom-text-color">Culture and Values</a></li>
+                            <li class="mb-3"><a href="https://www.starbucks.ca/responsibility/people/"
+                                    class="custom-text-color">Diversity and Inclusion</a></li>
+                            <li class="mb-3"><a href="https://www.starbucks.ca/careers/" class="custom-text-color">Work
+                                    at Starbucks</a></li>
+                            <li class="mb-3"><a href="https://www.starbucks.ca/careers/find-a-job/corporate/"
+                                    class="custom-text-color">Corporate Careers</a></li>
+                            <li class="mb-3"><a href="https://www.starbucks.ca/careers/find-a-job/retail/"
+                                    class="custom-text-color">Retail Careers</a></li>
+                        </ul>
+                    </div>
+                    <!-- Desktop Title & Content -->
+                    <h6 class="custom-text-color d-none d-lg-block p-3">Careers</h6>
+                    <ul class="list-unstyled d-none d-lg-block p-3">
+                        <li class="mb-3 mt-3"><a
+                                href="https://www.starbucks.ca/careers/working-at-starbucks/culture-and-values/"
+                                class="custom-text-color">Culture and Values</a></li>
+                        <li class="mb-3"><a href="https://www.starbucks.ca/responsibility/people/"
+                                class="custom-text-color">Diversity and Inclusion</a></li>
+                        <li class="mb-3"><a href="https://www.starbucks.ca/careers/" class="custom-text-color">Work at
+                                Starbucks</a></li>
+                        <li class="mb-3"><a href="https://www.starbucks.ca/careers/find-a-job/corporate/"
+                                class="custom-text-color">Corporate Careers</a></li>
+                        <li class="mb-3"><a href="https://www.starbucks.ca/careers/find-a-job/retail/"
+                                class="custom-text-color">Retail Careers</a></li>
+                    </ul>
+                </div>
+
+                <!-- Section: Social Impact -->
+                <div class="col-12 col-lg-2 mb-4 mb-lg-0 px-0">
+                    <!-- Mobile Toggle -->
+                    <a href="#SocialImpact" class="custom-text-color d-lg-none" data-bs-toggle="collapse">
+                        <h6>Social Impact</h6>
+                        <span class="arrow fa fa-chevron-down"></span>
+                    </a>
+                    <!-- Mobile Content -->
+                    <div class="collapse d-lg-none pl-4" id="SocialImpact">
+                        <ul class="list-unstyled">
+                            <li class="mb-3 mt-3"><a href="https://www.starbucks.ca/responsibility/reporting-hub/"
+                                    class="custom-text-color">Overview</a></li>
+                            <li class="mb-3"><a href="https://www.starbucks.ca/responsibility/people/"
+                                    class="custom-text-color">People</a></li>
+                            <li class="mb-3"><a href="https://www.starbucks.ca/responsibility/planet/"
+                                    class="custom-text-color">Planet</a></li>
+                            <li class="mb-3"><a href="https://www.starbucks.ca/responsibility/reporting-hub/"
+                                    class="custom-text-color">Environmental and Social Impact Reporting</a></li>
+                        </ul>
+                    </div>
+                    <!-- Desktop Title & Content -->
+                    <h6 class="custom-text-color d-none d-lg-block p-3">Social Impact</h6>
+                    <ul class="list-unstyled d-none d-lg-block p-3">
+                        <li class="mb-3 mt-3"><a href="https://www.starbucks.ca/responsibility/reporting-hub/"
+                                class="custom-text-color">Overview</a></li>
+                        <li class="mb-3"><a href="https://www.starbucks.ca/responsibility/people/"
+                                class="custom-text-color">People</a></li>
+                        <li class="mb-3"><a href="https://www.starbucks.ca/responsibility/planet/"
+                                class="custom-text-color">Planet</a></li>
+                        <li class="mb-3"><a href="https://www.starbucks.ca/responsibility/reporting-hub/"
+                                class="custom-text-color">Environmental and Social Impact Reporting</a></li>
+                    </ul>
+                </div>
+
+                <!-- Section: For Business Partners -->
+                <div class="col-12 col-lg-2 mb-4 mb-lg-0 px-0">
+                    <!-- Mobile Toggle -->
+                    <a href="#ForBusinessPartners" class="custom-text-color d-lg-none" data-bs-toggle="collapse">
+                        <h6>For Business Partners</h6>
+                        <span class="arrow fa fa-chevron-down"></span>
+                    </a>
+                    <!-- Mobile Content -->
+                    <div class="collapse d-lg-none" id="ForBusinessPartners">
+                        <ul class="list-unstyled pl-4">
+                            <li class="mb-3 mt-3"><a href="https://www.starbuckscardb2b.com/s/"
+                                    class="custom-text-color">Corporate Gift Card Sales</a></li>
+                            <li class="mb-3"><a href="https://weproudlyservestarbucks.com/ca/ca-en"
+                                    class="custom-text-color">Branded Solutions</a></li>
+                        </ul>
+                    </div>
+                    <!-- Desktop Title & Content -->
+                    <h6 class="custom-text-color d-none d-lg-block p-3">For Business Partners</h6>
+                    <ul class="list-unstyled d-none d-lg-block p-3">
+                        <li class="mb-3 mt-3"><a href="https://www.starbuckscardb2b.com/s/"
+                                class="custom-text-color">Corporate Gift Card Sales</a></li>
+                        <li class="mb-3"><a href="https://weproudlyservestarbucks.com/ca/ca-en"
+                                class="custom-text-color">Branded Solutions</a></li>
+                    </ul>
+                </div>
+
+                <!-- Section: Order and Pickup -->
+                <div class="col-12 col-lg-2 mb-4 mb-lg-0 px-0">
+                    <!-- Mobile Toggle -->
+                    <a href="#OrderPickupOptions" class="custom-text-color d-lg-none" data-bs-toggle="collapse">
+                        <h6>Order and Pickup</h6>
+                        <span class="arrow fa fa-chevron-down"></span>
+                    </a>
+                    <!-- Mobile Content -->
+                    <div class="collapse d-lg-none pl-4" id="OrderPickupOptions">
+                        <ul class="list-unstyled">
+                            <li class="mb-3 mt-3"><a href="https://www.starbucks.ca/rewards/mobile-apps/"
+                                    class="custom-text-color">Order on the App</a></li>
+                            <li class="mb-3"><a href="https://www.starbucks.ca/menu" class="custom-text-color">Order on
+                                    the Web</a></li>
+                            <li class="mb-3"><a href="https://www.starbucks.ca/ways-to-order/delivery/"
+                                    class="custom-text-color">Delivery</a></li>
+                            <li class="mb-3"><a href="https://www.starbucks.ca/ways-to-order/"
+                                    class="custom-text-color">Order and Pickup options</a></li>
+                        </ul>
+                    </div>
+                    <!-- Desktop Title & Content -->
+                    <h6 class="custom-text-color d-none d-lg-block p-3">Order and Pickup</h6>
+                    <ul class="list-unstyled d-none d-lg-block p-3">
+                        <li class="mb-3 mt-3"><a href="https://www.starbucks.ca/rewards/mobile-apps/"
+                                class="custom-text-color">Order on the App</a></li>
+                        <li class="mb-3"><a href="https://www.starbucks.ca/menu" class="custom-text-color">Order on the
+                                Web</a></li>
+                        <li class="mb-3"><a href="https://www.starbucks.ca/ways-to-order/delivery/"
+                                class="custom-text-color">Delivery</a></li>
+                        <li class="mb-3"><a href="https://www.starbucks.ca/ways-to-order/"
+                                class="custom-text-color">Order and Pickup options</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container pt-4 pl-5 pb-4">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <ul class="list-inline text-center">
+                    <li class="list-inline-item mx-3"><a href="https://www.facebook.com/starbuckscanada" class="sm"><i
+                                class="fa-brands fa-facebook fa-2x"></i></a></li>
+                    <li class="list-inline-item mx-3"><a href="https://www.instagram.com/starbuckscanada" class="sm"><i
+                                class="fa-brands fa-square-instagram fa-2x"></i></a></li>
+                    <li class="list-inline-item mx-3"><a href="https://twitter.com/starbuckscanada" class="sm"><i
+                                class="fa-brands fa-square-twitter fa-2x"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-12 d-none d-md-block">
+                <ul class="list-inline text-center">
+                    <li class="list-inline-item"><a href="https://www.starbucks.ca/terms/privacy-statement/"
+                            class="custom-link-color">Privacy Notice</a></li>
+                    <li class="list-inline-item">|</li>
+                    <li class="list-inline-item"><a href="https://www.starbucks.ca/terms/starbucks-terms-of-use/"
+                            class="custom-link-color">Terms of Use</a></li>
+                    <li class="list-inline-item">|</li>
+                    <li class="list-inline-item"><a href="https://www.starbucks.ca/personal-information"
+                            class="custom-link-color">Do Not Share My Personal Information</a>
+                    </li>
+                    <li class="list-inline-item">|</li>
+                    <li class="list-inline-item"><a
+                            href="https://id.starbucks.com/SecureAuth83/SecureAuth.aspx?SAMLRequest=fZLdT8IwFMX%2flaXv3aB8iA2QIMS4xI8F0AdfTOnupHFrZ2%2bL%2bN%2fbDT%2fQRJK%2b7Oacc3896xhFVdZ85t1WL%2bHVA7ooXUzIkxRsIHIGdHi%2bYbTfH57TEROMng2GmwKY7OWiT6IHsKiMnhAWd0iUInpINTqhXRh1WJ92GGWDNevycLq9uHf2SKJFWKK0cK1x61yNPElUHgef3Xj5grE0VYIgvQURwEa9o49YYL0n0aWxElrqCSlEidBszwSi2sH3JLPGGWnKC6VzpZ8nxFvNjUCFXIsKkDvJV7Obax7o%2beYgQn61Xmc0u1utSTRDBNtwzo1GX4Fdgd0pCffL6x9ydEh3CmkllP5zB1MoTEi0r0qNvG36NEP9CUym40bN20Ltkf%2b0XXzhkmkje0hXN4GJB8BxcpR3CK%2f5bQhIF5kplXxvCq2E%2bz%2b%2fG3fbicpp0Uq511iDVIWCPDRVluZtHn6RC%2fU760P7yfSw9ffrmn4A&RelayState=urn%253AVISC3%253Asts"
+                            class="custom-link-color">Partners</a></li>
+                    <li class="list-inline-item">|</li>
+                    <li class="list-inline-item"><a href="https://www.starbucks.ca/about-us/accessibility/"
+                            class="custom-link-color">Accessibility</a></li>
+                </ul>
+                <p class="text-center"><a href="#!" class="custom-link-color-2">Passer au site français</a></p>
+            </div>
+        </div>
+
+        <div class="row mt-4 d-md-none text-lg-start">
+            <div class="col-12">
+                <div class="d-flex flex-column">
+                    <a href="https://www.starbucks.ca/terms/privacy-statement/" class="custom-link-color mb-2">Privacy
+                        Notice</a>
+                    <a href="https://www.starbucks.ca/terms/starbucks-terms-of-use/"
+                        class="custom-link-color mb-2">Terms of Use</a>
+                    <a href="https://www.starbucks.ca/personal-information" class="custom-link-color mb-2">Do Not Share
+                        My Personal Information</a>
+                    <a href="https://id.starbucks.com/SecureAuth83/SecureAuth.aspx?SAMLRequest=fZLdT8IwFMX%2flaXv3aB8iA2QIMS4xI8F0AdfTOnupHFrZ2%2bL%2bN%2fbDT%2fQRJK%2b7Oacc3896xhFVdZ85t1WL%2bHVA7ooXUzIkxRsIHIGdHi%2bYbTfH57TEROMng2GmwKY7OWiT6IHsKiMnhAWd0iUInpINTqhXRh1WJ92GGWDNevycLq9uHf2SKJFWKK0cK1x61yNPElUHgef3Xj5grE0VYIgvQURwEa9o49YYL0n0aWxElrqCSlEidBszwSi2sH3JLPGGWnKC6VzpZ8nxFvNjUCFXIsKkDvJV7Obax7o%2beYgQn61Xmc0u1utSTRDBNtwzo1GX4Fdgd0pCffL6x9ydEh3CmkllP5zB1MoTEi0r0qNvG36NEP9CUym40bN20Ltkf%2b0XXzhkmkje0hXN4GJB8BxcpR3CK%2f5bQhIF5kplXxvCq2E%2bz%2b%2fG3fbicpp0Uq511iDVIWCPDRVluZtHn6RC%2fU760P7yfSw9ffrmn4A&RelayState=urn%253AVISC3%253Asts"
+                        class="custom-link-color mb-2">Partners</a>
+                    <a href="https://www.starbucks.ca/about-us/accessibility/"
+                        class="custom-link-color mb-2">Accessibility</a>
+                </div>
+                <p class="mt-3"><a href="#!" class="custom-link-color-2">Passer au site français</a></p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <footer>
+        <div class="text-left pl-4 pt-4 pb-4">
+            © 2024 Starbucks Coffee Company. All rights reserved.
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 
 

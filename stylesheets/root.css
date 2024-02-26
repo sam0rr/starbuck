@@ -36,23 +36,19 @@ h1 {
     font-size: 14px;
     font-weight: 900;
     color: var(--color-text);
-    text-decoration: none;
 }
 
 h1 a {
     color: var(--color-text);
-    text-decoration: none;
 }
 
 h1 a:hover {
     color: var(--color-accent);
-    text-decoration: none;
 }
 
 h2 {
     font-size: 24px;
     font-weight: 700;
-    text-decoration: none;
 
 }
 
@@ -60,7 +56,6 @@ h3 {
     font-size: 14px;
     font-weight: 600;
     padding-bottom: 1.5rem;
-    text-decoration: none;
 }
 
 h4 {
@@ -69,7 +64,6 @@ h4 {
     font-weight: 600;
     margin-bottom: 10px;
     line-height: 1.8;
-    text-decoration: none;
 }
 
 h4 a {
@@ -86,13 +80,13 @@ h5 {
     font-size: 50px;
     font-weight: 700;
     color: var(--color-text);
-    text-decoration: none;
 }
 
 h6 {
     font-size: 18px;
     font-weight: 600;
     text-decoration: none;
+    color: #000 !important;
 
 }
 
@@ -112,8 +106,8 @@ p {
 .border-bottom {
     padding: 0;
     margin: 0;
-    border-bottom: 1.5px solid rgba(90, 87, 87, 0.185) !important;
- 
+    border-bottom: 5px solid rgba(194, 194, 194, 0);
+
 }
 
 div {
@@ -123,5 +117,5 @@ div {
 
 section {
     padding: 0;
-    padding-block: 1.5rem;
+    padding-block: 0.8rem;
 }
